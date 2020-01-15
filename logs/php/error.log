@@ -1,0 +1,62 @@
+[05-Jan-2020 18:33:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_pages() in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php:3
+Stack trace:
+#0 E:\XAMPP\htdocs\wordpress\app\public\wp-includes\template-loader.php(98): include()
+#1 E:\XAMPP\htdocs\wordpress\app\public\wp-blog-header.php(19): require_once('E:\\XAMPP\\htdocs...')
+#2 E:\XAMPP\htdocs\wordpress\app\public\index.php(17): require('E:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 3
+[06-Jan-2020 12:10:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_content() in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php:31
+Stack trace:
+#0 E:\XAMPP\htdocs\wordpress\app\public\wp-includes\template-loader.php(98): include()
+#1 E:\XAMPP\htdocs\wordpress\app\public\wp-blog-header.php(19): require_once('E:\\XAMPP\\htdocs...')
+#2 E:\XAMPP\htdocs\wordpress\app\public\index.php(17): require('E:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 31
+[06-Jan-2020 12:47:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 18 and exactly 1 expected in E:\XAMPP\htdocs\wordpress\app\public\wp-includes\post.php:6829
+Stack trace:
+#0 E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php(18): wp_get_post_parent_id()
+#1 E:\XAMPP\htdocs\wordpress\app\public\wp-includes\template-loader.php(98): include('E:\\XAMPP\\htdocs...')
+#2 E:\XAMPP\htdocs\wordpress\app\public\wp-blog-header.php(19): require_once('E:\\XAMPP\\htdocs...')
+#3 E:\XAMPP\htdocs\wordpress\app\public\index.php(17): require('E:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown in E:\XAMPP\htdocs\wordpress\app\public\wp-includes\post.php on line 6829
+[06-Jan-2020 12:51:03 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 23
+[06-Jan-2020 12:52:01 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 23
+[06-Jan-2020 12:52:05 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 23
+[06-Jan-2020 12:52:07 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 23
+[06-Jan-2020 12:52:13 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 23
+[06-Jan-2020 12:52:18 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 23
+[06-Jan-2020 12:54:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php on line 20 and exactly 1 expected in E:\XAMPP\htdocs\wordpress\app\public\wp-includes\post.php:6829
+Stack trace:
+#0 E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\page.php(20): wp_get_post_parent_id()
+#1 E:\XAMPP\htdocs\wordpress\app\public\wp-includes\template-loader.php(98): include('E:\\XAMPP\\htdocs...')
+#2 E:\XAMPP\htdocs\wordpress\app\public\wp-blog-header.php(19): require_once('E:\\XAMPP\\htdocs...')
+#3 E:\XAMPP\htdocs\wordpress\app\public\index.php(17): require('E:\\XAMPP\\htdocs...')
+#4 {main}
+  thrown in E:\XAMPP\htdocs\wordpress\app\public\wp-includes\post.php on line 6829
+[07-Jan-2020 12:59:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\header.php on line 23
+[07-Jan-2020 12:59:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\header.php on line 23
+[07-Jan-2020 12:59:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\header.php on line 23
+[07-Jan-2020 13:00:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\header.php on line 23
+[09-Jan-2020 09:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function single_author_title() in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\archive.php:11
+Stack trace:
+#0 E:\XAMPP\htdocs\wordpress\app\public\wp-includes\template-loader.php(98): include()
+#1 E:\XAMPP\htdocs\wordpress\app\public\wp-blog-header.php(19): require_once('E:\\XAMPP\\htdocs...')
+#2 E:\XAMPP\htdocs\wordpress\app\public\index.php(17): require('E:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\archive.php on line 11
+[10-Jan-2020 08:09:22 UTC] PHP Parse error:  syntax error, unexpected ']' in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\functions.php on line 28
+[10-Jan-2020 08:32:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Query() in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\front-page.php:21
+Stack trace:
+#0 E:\XAMPP\htdocs\wordpress\app\public\wp-includes\template-loader.php(98): include()
+#1 E:\XAMPP\htdocs\wordpress\app\public\wp-blog-header.php(19): require_once('E:\\XAMPP\\htdocs...')
+#2 E:\XAMPP\htdocs\wordpress\app\public\index.php(17): require('E:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\front-page.php on line 21
+[10-Jan-2020 14:15:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\front-page.php:31
+Stack trace:
+#0 E:\XAMPP\htdocs\wordpress\app\public\wp-includes\template-loader.php(98): include()
+#1 E:\XAMPP\htdocs\wordpress\app\public\wp-blog-header.php(19): require_once('E:\\XAMPP\\htdocs...')
+#2 E:\XAMPP\htdocs\wordpress\app\public\index.php(17): require('E:\\XAMPP\\htdocs...')
+#3 {main}
+  thrown in E:\XAMPP\htdocs\wordpress\app\public\wp-content\themes\andreitheme\front-page.php on line 31
